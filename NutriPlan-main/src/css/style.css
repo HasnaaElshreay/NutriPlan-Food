@@ -1,0 +1,47 @@
+.loading {
+  display: none;
+}
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 3px solid #009966;
+  border-right: 3px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.custom-green-toast {
+  background: #009866 !important;
+  color: #fff !important;
+  padding: 5px 8px !important;
+  border-radius: 8px !important;
+  font-size: 16px !important;
+}
+
+.custom-green-toast .swal2-icon,
+.custom-blue-toast .swal2-icon {
+  color: #fff !important;
+}
+
+.custom-blue-toast {
+  background: #155DFC !important;
+  color: #fff !important;
+  padding: 8px 10px !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  width: auto !important;
+  display: inline-block !important;
+  border-radius: 8px !important;
+  font-size: 16px !important;
+}
